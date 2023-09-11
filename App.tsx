@@ -3,15 +3,15 @@ import { useFonts, Montserrat_400Regular, Montserrat_400Regular_Italic, Montserr
 import React from 'react';
 import Instrumento from './src/pages/Instrumento';
 import NavBar from './src/pages/NavBar';
-import violao from "/expo/instrumentApp/assets/violao2.jpg";
-import guitar from "/expo/instrumentApp/assets/guitar.jpg";
-import flauta from "/expo/instrumentApp/assets/flauta1.jpg";
-import bateria from "/expo/instrumentApp/assets/bateria.jpg";
-import violino from "/expo/instrumentApp/assets/violino.jpg";
-import pandeiro from "/expo/instrumentApp/assets/pandeiro1.jpg";
-import berimbau from "/expo/instrumentApp/assets/berimbau.jpg";
-import gaita from "/expo/instrumentApp/assets/gaita.jpg";
-import Footer from './src/pages/Footer'; // Importe o componente Footer
+import violao from "/instrumentApp/assets/violao2.jpg";
+import guitar from "/instrumentApp/assets/guitar.jpg";
+import flauta from "/instrumentApp/assets/flauta1.jpg";
+import bateria from "/instrumentApp/assets/bateria.jpg";
+import violino from "/instrumentApp/assets/violino.jpg";
+import pandeiro from "/instrumentApp/assets/pandeiro1.jpg";
+import berimbau from "/instrumentApp/assets/berimbau.jpg";
+import gaita from "/instrumentApp/assets/gaita.jpg";
+import Footer from './src/pages/Footer';
 
 const DATA = [
   {
@@ -144,7 +144,6 @@ export default function App() {
         keyExtractor={item => item.id2}
       />
       </View>
-      
     </SafeAreaView>
     </View>
     </ImageBackground>
