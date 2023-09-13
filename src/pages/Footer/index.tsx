@@ -15,10 +15,10 @@ const styles = StyleSheet.create({
   footer: {
     height: 80 / 368 * width,
     width: '100%',
-    backgroundColor: '#2B2D33', // Cor de fundo do rodapé
-    padding: 10, // Espaçamento interno
+    backgroundColor: '#2B2D33', 
+    padding: 10, 
     alignItems: 'flex-end',
-    justifyContent: 'flex-end' // Alinhamento horizontal
+    justifyContent: 'flex-end' 
   },
   text: {
     color: '#fff', // Cor do texto
