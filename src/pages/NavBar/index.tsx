@@ -1,6 +1,6 @@
 import React from "react";
 import {StyleSheet, View, Image, Dimensions } from "react-native";
-import logo from "/instrumentApp/assets/logo.png";
+import logo from "/expo/instrumentApp/assets/logo.png";
 
 const width = Dimensions.get('screen').width;
 
